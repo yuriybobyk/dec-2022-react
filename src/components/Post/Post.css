@@ -1,0 +1,19 @@
+.Post{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    background: #DDF7F8;
+    border-radius: 15px;
+    gap: 10px;
+    right: 15px;
+    width: 216px;
+    height: 450px;
+}
+
+.btn{
+    width: 100px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}

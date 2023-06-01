@@ -10,6 +10,9 @@ const commentSlice = createSlice({
     reducers: {
         getAll: (state, action) => {
             state.comments = action.payload
+        },
+        create: (state, action) => {
+            state.comments.push(action.payload.comment)
         }
     }
 })

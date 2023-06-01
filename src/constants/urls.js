@@ -7,8 +7,13 @@ const placeUrls = {
     comments: '/comments'
 }
 
+const cars =  '/cars';
+
 const carUrl = {
-    cars: '/cars'
+    cars: {
+        cars,
+        byId: (id) => `${cars}/${id}`
+    }
 }
 
 export {

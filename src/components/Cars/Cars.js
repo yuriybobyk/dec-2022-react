@@ -8,11 +8,11 @@ const Cars = () => {
 
     const dispatch = useDispatch();
 
-    const {cars} = useSelector(state => state.cars);
+    const {cars, trigger} = useSelector(state => state.cars);
 
     useEffect(()=>{
         carService.getAll().then(value => value.data).then(value => dispatch(carActions.getAll(value)))
-    },[dispatch])
+    },[dispatch, trigger])
 
     return (
         <div>

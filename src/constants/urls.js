@@ -1,11 +1,6 @@
-const placeBaseURL = 'https://jsonplaceholder.typicode.com';
 
 const carBaseURL = 'http://owu.linkpc.net/carsAPI/v1';
 
-const placeUrls = {
-    users: '/users',
-    comments: '/comments'
-}
 
 const cars =  '/cars';
 
@@ -17,7 +12,5 @@ const carUrl = {
 }
 
 export {
-    placeBaseURL,
-    placeUrls,
     carBaseURL, carUrl
 }
